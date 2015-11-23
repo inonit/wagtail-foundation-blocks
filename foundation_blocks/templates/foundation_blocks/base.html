@@ -1,0 +1,18 @@
+{# Load static content #}
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/zurb/foundation-apps-1.1.0.min.css">
+<script src="http://cdn.jsdelivr.net/zurb/foundation-apps-1.1.0.min.js"></script>
+<script src="http://cdn.jsdelivr.net/zurb/foundation-apps-templates-1.1.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js"></script>
+<script>
+    (function() {
+        "use strict";
+
+        angular.module('foundation_blocks', [
+
+        ])
+        .config()
+        .run(function() {
+            FastClick.attach(document.body);
+        });
+    })();
+</script>
